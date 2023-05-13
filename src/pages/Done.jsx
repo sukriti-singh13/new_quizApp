@@ -1,5 +1,5 @@
 import React from "react";
-import DoneImg from "../assets/Hero.svg";
+import DoneImg from "../assets/Done.svg";
 const Done = () => {
   let time = localStorage.getItem("time");
   let score = localStorage.getItem("score");

@@ -73,7 +73,6 @@ const Quiz = () => {
 
   useEffect(() => {
     if (selectedOption === quizData[currentIndex].correctANs) {
-      console.log(selectedOption);
       setCorrectAns((prev) => prev + 1);
     }
   }, [selectedOption]);

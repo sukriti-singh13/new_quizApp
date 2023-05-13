@@ -1,5 +1,5 @@
 import React from "react";
-import Hero from "../assets/Done.svg";
+import Hero from "../assets/Hero.svg";
 import { useNavigate } from "react-router-dom";
 
 const Home = () => {
