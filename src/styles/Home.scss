@@ -1,0 +1,46 @@
+.upper_content {
+  img {
+    max-width: 246px;
+    display: block;
+    margin: 30px auto;
+  }
+}
+
+.home_parent {
+  display: flex;
+  flex-direction: column;
+}
+.home_content {
+  background-color: #a56dda;
+  flex: 1;
+  height: 100%;
+  padding: 20px;
+  display: grid;
+  place-content: center;
+  h3 {
+    font-weight: 900;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+    text-decoration-line: underline;
+    color: #ffffff;
+  }
+  p,
+  li {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+  }
+  p {
+    margin: 30px 0px;
+  }
+  li {
+    margin-top: 6px;
+  }
+  button {
+    display: block;
+    margin: 0 auto;
+    justify-self: center;
+    margin-top: 30px;
+  }
+}
