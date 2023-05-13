@@ -117,7 +117,9 @@ const Quiz = () => {
           ))}
         </div>
 
-        <button onClick={onNext}>Next</button>
+        <button onClick={onNext}>
+          {currentIndex + 1 === quizData.length ? "Submit" : "Next"}
+        </button>
       </div>
     </div>
   );

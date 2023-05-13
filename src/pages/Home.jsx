@@ -15,9 +15,9 @@ const Home = () => {
           <div className="intro">
             <h3>React Quiz</h3>
             <p>
-              This section includes eight advanced behavioral React.js interview
-              questions you can ask to find out which methods your candidates
-              use when working on React.js projects.
+              This section includes five Intermediate behavioral React.js
+              interview questions you can ask to find out which methods your
+              candidates use when working on React.js projects.
             </p>
           </div>
           <div className="about_exam">
